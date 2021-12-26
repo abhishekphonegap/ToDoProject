@@ -38,8 +38,13 @@ class ToDoListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         print("Selected Row is \(arrList[indexPath.row])...")
-        tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
-        if tableView.deselectRow(at: indexPath, animated: true) == .che
+        if tableView.cellForRow(at: indexPath)?.accessoryType == .checkmark{
+            tableView.cellForRow(at: indexPath)?.accessoryType = .none
+        }
+        else{
+            tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
+        }
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 
