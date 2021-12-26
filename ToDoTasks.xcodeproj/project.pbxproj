@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3E6453D62778CBC900768CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6453D52778CBC900768CF1 /* AppDelegate.swift */; };
 		3E6453D82778CBC900768CF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6453D72778CBC900768CF1 /* SceneDelegate.swift */; };
-		3E6453DA2778CBC900768CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6453D92778CBC900768CF1 /* ViewController.swift */; };
+		3E6453DA2778CBC900768CF1 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6453D92778CBC900768CF1 /* ToDoListViewController.swift */; };
 		3E6453DD2778CBC900768CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6453DB2778CBC900768CF1 /* Main.storyboard */; };
 		3E6453DF2778CBCA00768CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6453DE2778CBCA00768CF1 /* Assets.xcassets */; };
 		3E6453E22778CBCA00768CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6453E02778CBCA00768CF1 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		3E6453D22778CBC900768CF1 /* ToDoTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6453D52778CBC900768CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E6453D72778CBC900768CF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E6453D92778CBC900768CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E6453D92778CBC900768CF1 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		3E6453DC2778CBC900768CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E6453DE2778CBCA00768CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E6453E12778CBCA00768CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				3E6453D52778CBC900768CF1 /* AppDelegate.swift */,
 				3E6453D72778CBC900768CF1 /* SceneDelegate.swift */,
-				3E6453D92778CBC900768CF1 /* ViewController.swift */,
+				3E6453D92778CBC900768CF1 /* ToDoListViewController.swift */,
 				3E6453DB2778CBC900768CF1 /* Main.storyboard */,
 				3E6453DE2778CBCA00768CF1 /* Assets.xcassets */,
 				3E6453E02778CBCA00768CF1 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E6453DA2778CBC900768CF1 /* ViewController.swift in Sources */,
+				3E6453DA2778CBC900768CF1 /* ToDoListViewController.swift in Sources */,
 				3E6453D62778CBC900768CF1 /* AppDelegate.swift in Sources */,
 				3E6453D82778CBC900768CF1 /* SceneDelegate.swift in Sources */,
 			);
